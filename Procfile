@@ -1,1 +1,0 @@
-web: echo "Hello, World!" > index.html && python -m http.server $PORT
