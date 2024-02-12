@@ -112,14 +112,13 @@ a:hover {
     font-size: 47px; }
 
 .work .work-list {
+  margin-top: 50px;
   margin-left: 0px; }
-  .work .work-list li {
-    list-style: none;
-    font-size: 0.9375em;
+  .work .work-list .experience li {
+    list-style-type: disc; 
     color: #8c8c8c; }
     .work .work-list li a {
       padding-bottom: 5px;
-      font-size: 1.1875em;
       font-weight: 700;
       text-decoration: none;
       border-bottom: 1px solid #b3b3b3; }
@@ -139,7 +138,8 @@ a:hover {
     color: #8c8c8c; }
 
 .quote {
-  background: url(../img/bg.jpg);
+  /* background: url(../img/bg.jpg); */
+  background-repeat: none;
   padding: 20px 0px;
   margin-top: 120px; }
   .quote h1 {
@@ -157,3 +157,17 @@ footer {
       font-size: 1.25em;
       color: #999999; }
 
+.experience li{
+   list-style-type: disc; 
+ }
+ .work .work-list  .place-of-work { 
+    color: black;
+ }
+
+ .experience-paragraph {
+   font-size: 16px !important; 
+   color: 	#5A5A5A !important;
+ }
+ .experience-paragraph li{
+   color: 	#5A5A5A !important;
+ }
