@@ -196,6 +196,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  margin-left: -20px;
  }
 
  .project-name {
@@ -206,4 +207,9 @@ footer {
  .description {
   text-decoration: none;
   color: #8c8c8c;
+ }
+
+ .intro-text, .hi {
+  margin-left: 152px;
+margin-top: -12px;
  }
