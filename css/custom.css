@@ -206,7 +206,8 @@ footer {
 
  .description {
   text-decoration: none;
-  color: #8c8c8c;
+  font-style: italic;
+  color: #386fc7;
  }
 
  .intro-text, .hi {
