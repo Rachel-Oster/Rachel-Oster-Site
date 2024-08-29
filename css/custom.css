@@ -214,3 +214,14 @@ footer {
   margin-left: 152px;
 margin-top: -12px;
  }
+
+ @media (max-width: 767px) {
+  .intro-text, .hi {
+    text-align: center;
+    margin-left: unset;
+    margin-top: -12px;
+ }
+ h1 {
+  text-align: center;
+ }
+}
